@@ -6,8 +6,8 @@ body {
 
 .portfolio-container {
   display: grid;
-  grid-template-columns: 1fr; /* Change to 2fr for larger screens if needed */
-  gap: 20px; /* Space between grid items */
+  grid-template-columns: 1fr; 
+  gap: 20px; 
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
@@ -57,6 +57,7 @@ body {
 .intro-section h3 {
   font-size: 28px;
   margin-bottom: 10px;
+  color: #eaeaea80;
 }
 
 .intro-section p {
@@ -92,28 +93,28 @@ body {
   background-color: #e98306;
 }
 
-.companies-section {
+.Skills-Section {
   text-align: center;
 }
 
-.companies-section h4 {
+.Skills-Section h4 {
   font-size: 22px;
   margin-bottom: 20px;
 }
 
-.company-logos {
-  display: grid; /* Change to grid for logos */
+.Skills-logos {
+  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive logos */
-  gap: 10px; /* Space between logos */
+  gap: 10px;
 }
 
-.company-logos img {
+.Skills-logos img {
   max-width: 100%;
   filter: grayscale(100%);
   opacity: 0.8;
 }
 
-.company-logos img:hover {
+.Skills-logos img:hover {
   filter: grayscale(0%);
   opacity: 1;
 }
